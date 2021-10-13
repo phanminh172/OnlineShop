@@ -6,13 +6,12 @@ using System.Web.Mvc;
 
 namespace OnlineShop.Areas.Admin.Controllers
 {
-    public class HomeController : Controller
+    public class LoginController : Controller
     {
-        // GET: Admin/Home
+        // GET: Admin/Login
         public ActionResult Index()
         {
             return View();
         }
-        
     }
 }
